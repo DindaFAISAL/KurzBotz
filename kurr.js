@@ -1,4 +1,4 @@
-﻿///----------( Created By KurrXd )----------\\\
+﻿///----------( Created By Faisal )----------\\\
 
 /**
 BASE:DENIS
@@ -10,7 +10,7 @@ TQ TO:
 @KEMOL
 @ADI
 @KurrXd
-@Finx
+@FAISAL STORE
 * Note:
 * Kalau Mau Recode/Reupload Kasih Credit
 **/
@@ -1167,17 +1167,17 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ Kurz Bot Assistan 🏴‍☠️'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = '🏴‍☠️ FAISAL Bot 🏴‍☠️'
+       ownerJid = "628858770642900@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd*
+🏴‍☠️ _Creator : FAISAL*
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
 🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : FAISAL Bot _
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1476,7 +1476,7 @@ const serialUser = createSerial(18)
 🏴‍☠️ *🏴‍☠️ Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 FAISAL Bot  」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
@@ -1498,7 +1498,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Kurz Bot Assistan_*',
+ footerText: '*_© FAISAL Bot _*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
