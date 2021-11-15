@@ -97,11 +97,7 @@ if (!welkom.includes(anu.jid)) return
 Halo @${num.split('@')[0]} 👋\nSelamat datang di Grup
 *${mdata.subject}*
 
-Intro Member Baru
-${shp} Nama:
-${shp} Umur:
-${shp} Status:
-${shp} Askot:
+Lu Member Baru Jan Sok"an Share Link Tau Kan Kalau Ada Bot 
 `
 const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
