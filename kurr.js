@@ -446,7 +446,7 @@ key: {
 					"retailerId": `${tampilUcapan} ${pushname}`,
 					"productImageCount": 1
 				},
-				    "businessOwnerJid": `0@s.whatsapp.net`
+				    "businessOwnerJid": `62858770642900@s.whatsapp.net`
 		}
 	}
 }
@@ -643,7 +643,7 @@ options
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
 const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak```'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🗿DAFTAR🗿 `,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `Verify `,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -1135,9 +1135,9 @@ else if(menusimpel = true){
         stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `┌───「 \`\`\`Kurz Bot Assistan\`\`\` 」
+       menu = `┌───「 \`\`\`Faisal Boz\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* 
+🏴‍☠️ _Creator : *FAISAL* 
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1145,7 +1145,7 @@ else if(menusimpel = true){
 │
 🏴‍☠️───「 \`\`\`INFO BOT\`\`\` 」
 │
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : FAISAL Bot_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1159,8 +1159,8 @@ else if(menusimpel = true){
 🏴‍☠️ _Nomor : @${stod.split('@')[0]}_
 🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
-└───「 \`\`\`Kurz Bot Assistan\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+└───「 \`\`\`FAISAL Bot\`\`\` 」`
+sendButLocation(from, `${menu}`, "*_© FAISAL Bot_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
 case 'allmenu': 
@@ -1460,7 +1460,7 @@ kurr.sendMessage(from, btnBngsat, MessageType.buttonsMessage, { quoted: ftrol, c
                   }
 break
         case 'store':
-        reply('*STORE MENU*\nREADY RDP BY KurrXd\n SPEK:\n RAM 8GB CORE 2\n35k minat ketik .owner')
+        reply('*STORE MENU*\nREADY RDP BY Faisal\n SPEK:\n RAM 8GB CORE 2\n35k minat ketik .owner')
         break
 case 'verify':
 if (isRegistered) return sticOk(from)
@@ -1485,7 +1485,7 @@ mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© kurr_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© FAISAL_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -2676,9 +2676,9 @@ break
 		case 'sewabot':
 		case 'sourcecode':
 		anu =`PRICELIST SEWABOT
-		10K:6BULAN
-		20K:MANEN
-		SC? YT KurrXd OFFICIAL`
+		10k:6BULAN
+		15k:MANEN
+		SC? 10K GUA KASIH`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
@@ -2699,9 +2699,9 @@ doni =`*╭─❒ 「 Donasi 」 ──────*
 *│*⬡ *Mau donasi apa cuma liat doang?*
 *│*⬡ *PULSA     : ${pulsa}*
 *│*⬡ *DANA    : ${dana}*
-*│*⬡ *GOPAY    : SCAN DI ATAS AJA*
+*│*⬡ *GOPAY    : 085877064290*
 *└───────────────────*
-Scan QR di atas bila belum premium`
+JANGAN Scan QR DI ATAS`
 kurr.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
 break
        case 'debug':
@@ -5286,9 +5286,9 @@ Giliran = @${tty.player1.split('@')[0]}`
 
 /**
 * Thx To:
-KurrXd
+FAISAL
 Dcode Denpa
 Yuzzu Kamiyaka
 **/
 
-///----------( Thx Dah Pake Scriptnya )----------\\\
+///----------(FAISAL BOTZ )----------\\\
